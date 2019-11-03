@@ -1,5 +1,10 @@
 module Main where
+import Module1
 
 main :: IO ()
 main = do
-  putStrLn "hello world"
+  let p = programmingLanguage "Haskell"
+  let name = nameDo
+  printName <- name 
+  putStrLn p
+
